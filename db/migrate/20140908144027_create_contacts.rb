@@ -1,3 +1,4 @@
+# Creates a new table in active record for contacts
 class CreateContacts < ActiveRecord::Migration
   def change
     # Create the contacts table with the following
