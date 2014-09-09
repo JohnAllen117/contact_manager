@@ -2,7 +2,7 @@
 
 <ul>
   <% @contacts.each do |contact| %>
-    <li><a href="/<%= contact.id %>"><%= contact.name %></a> - <%= contact.phone_number %></li>
+    <li><a href="/contacts/<%= contact.id %>"><%= contact.name %></a> - <%= contact.phone_number %></li>
   <% end %>
 </ul>
 
@@ -10,3 +10,5 @@
  <input name= "search" id="search" type="text" placeholder="Search . . .">
  <input type="submit"/>
 </form>
+
+
